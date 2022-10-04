@@ -12,15 +12,23 @@ Utiliser au besoin :
 
 Le programme :
 
--	Afficher les caractéristiques initiales de chaque combattant (hp, attaque, défense, dé pour le dommage, bonus de dommage)
+- Menu initial avec le choix entre
 
-- Jsuqu'à ce que l'un des deux combatants soit mort :
+-- Afficher les stats des combatants
+-- Simuler un combat complet
+-- Afficher un résumé/historique de combat
+
+### Afficher les stats des combatants : 
+- Les caractéristiques initiales de chaque combattant (hp, attaque, défense, dé pour le dommage, bonus de dommage)
+
+### Simuler un combat :
+- Jsuqu'à ce que l'un des deux combatants soit mort 
 
 --	Calculer et afficher l’initiative avec un message qui donne l’ordre d’attaque
 
 --	Calculer les attaques les dégâts et afficher les résultats
 
--	À la fin, nettoyer l'écran et afficher :
+### Afficher un résumé/historique de combat :
 
 -- Un message indiquant le vainqueur
 
