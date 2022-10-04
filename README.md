@@ -1,6 +1,6 @@
 # Labo : DnD lite
 
-Le programme simule un combat entre deux adversaires dans un jeu inspiré des règles de Dungeon & Dragons. 
+## Le programme simule un combat entre deux adversaires dans un jeu inspiré des règles de Dungeon & Dragons. 
 
 Pour cette question les règles ne sont pas les règles de D&D. N’essayez pas de vous fier à votre connaissance du jeu.
 
@@ -10,7 +10,7 @@ Utiliser au besoin :
 - Boucles
 - Conditions
 
-Le programme :
+## Le programme :
 
 - Menu initial avec le choix entre
 
@@ -34,6 +34,8 @@ Le programme :
 
 -- l'historique des tours de combat avec : les jets de toucher (le d20), les dégâts de chacun, les points de vie restant
 
+## Stats
+
 Chaque combattant a 30 points de vie (hp).
 
 Le premier est un guerrier humain se battant avec une épée longue, un bouclier et une cotte de mailles :
@@ -52,13 +54,13 @@ Le second est un orc se battant avec une épée longue, à deux mains :
 
 Puisqu’il se bat à deux mains, le jet de toucher et les dommages de l’orc sont augmentés de 2.
 
-Calcul du bonus de dommages
+### Calcul du bonus de dommages selon les stats
 
-Selon la statistique d’attaque chaque combattant a un **bonus de plus** appliqué à ses dommages. Pour calculer ce bonus :
+Selon la statistique d’attaque chaque combattant a un **bonus de plus** appliqué à ses dommages et à son toucher. Pour calculer ce bonus :
 
 (Statistique d’attaque – 9) / 2
  
-Déroulement du combat
+## Déroulement du combat
 
 - Initiative : 
 
