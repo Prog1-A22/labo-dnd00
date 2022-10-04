@@ -17,11 +17,13 @@ Le programme :
 - Jsuqu'à ce que l'un des deux combatants soit mort :
 
 --	Calculer et afficher l’initiative avec un message qui donne l’ordre d’attaque
+
 --	Calculer les attaques les dégâts et afficher les résultats
 
 -	À la fin, nettoyer l'écran et afficher :
 
 -- Un message indiquant le vainqueur
+
 -- l'historique des tours de combat avec : les jets de toucher (le d20), les dégâts de chacun, les points de vie restant
 
 Chaque combattant a 30 points de vie (hp).
@@ -53,13 +55,17 @@ Déroulement du combat
 - Initiative : 
 
 -- 1 dé à 20 faces (nombre aléatoire de 1 à 20) est lancé par chaque protagoniste, celui qui a le plus haut lancé attaque en premier. 
+
 -- En cas d’égalité l’humain attaque en premier parce que c’est le héros!
 
 - Toucher et dommages :
 
 -- Chaque attaque nécessite le lancer du dé à 20 faces (nombre aléatoire de 1 à 20), c'est le jet de toucher
+
 -- Si le résultat du jet de toucher est plus grand ou égal à la statistique de défense on applique les dommages aux points de vie de l’adversaire.
+
 -- Les dommages correspondent au lancé du dé de dommage, un nombre aléatoire de 1 à la valeur du dé de dommage (ex : humain 1 à 8).
+
 -- On ajoute aux dommages les bonus de dommage
 
 
